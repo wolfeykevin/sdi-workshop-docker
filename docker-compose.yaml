@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  workshop:
+    build:
+      context: ./ui/dockerize
+      dockerfile: Dockerfile
+      
+#   version: '3.0'
+# services:
+#   workshop:
+#     build:
+#       context: ./my_dir
+#       dockerfile: dockerfile

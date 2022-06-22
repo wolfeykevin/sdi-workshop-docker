@@ -9,15 +9,16 @@
   - docker-compose.yaml
 
 ## Dockerize a React Application
-  - Navigate to the /ui folder
-  - Build a Create-React-App (nothing fancy - out of the box app will work fine!)
-  - Verify `npm start` - will start and run your application and that you can access the default App loading page.
-  - Modify the App to indicate each application author’s name (just in the App.js is fine!) 
-  - Add a Dockerfile for the CRA
-  - Build the Docker image
-  - Run the Docker Image as a Docker Container 
-    - GOAL: Make sure you can connect to that application on your localhost
-	- AFTER GOAL: remove the container and application.
+  [X] Navigate to the /ui folder
+  [X] Build a Create-React-App (nothing fancy - out of the box app will work fine!)
+  [X] Verify `npm start` - will start and run your application and that you can access the default App loading page.
+  [X] Modify the App to indicate each application author’s name (just in the App.js is fine!) 
+  [X] Add a Dockerfile for the CRA
+  [X] Build the Docker image:  
+    >'appimg'
+  [X] Run the Docker Image as a Docker Container 
+    [X] GOAL: Make sure you can connect to that application on your localhost
+	  [X] AFTER GOAL: remove the container and application.
   - Use Docker Compose to execute your ui application.
   - Create a service inside your docker-compose file at the root of the file system.
   - From the command line at the root of your application run: `docker-compose up`
